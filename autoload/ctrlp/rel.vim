@@ -14,7 +14,6 @@ call add(g:ctrlp_ext_vars, {
   \ 'specinput': 0,
   \ })
 
-
 function! ctrlp#rel#init(bufnr)
   let results = []
   let files = ctrlp#files()
